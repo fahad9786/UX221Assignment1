@@ -1318,3 +1318,5 @@ Stack trace:
 #0 /workspaces/UX221Assignment1/.wordpress/wp-admin/admin-ajax.php(36): require_once()
 #1 {main}
   thrown in /workspaces/UX221Assignment1/.wordpress/wp-admin/includes/admin.php on line 85
+[30-Jan-2025 22:52:11 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 16384 bytes) in /workspaces/UX221Assignment1/.wordpress/wp-includes/functions.php on line 4666
+[30-Jan-2025 22:55:22 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 16384 bytes) in /workspaces/UX221Assignment1/.wordpress/wp-includes/functions.php on line 4666
