@@ -1312,3 +1312,9 @@ Stack trace:
 [30-Jan-2025 22:51:26 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 65536 bytes) in /workspaces/UX221Assignment1/.wordpress/wp-includes/class-wp-fatal-error-handler.php on line 43
 [30-Jan-2025 22:51:33 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 16384 bytes) in /workspaces/UX221Assignment1/.wordpress/wp-includes/functions.php on line 4666
 [30-Jan-2025 22:51:34 UTC] PHP Fatal error:  Out of memory (allocated 29360128) (tried to allocate 16384 bytes) in /workspaces/UX221Assignment1/.wordpress/wp-includes/functions.php on line 4666
+[30-Jan-2025 22:51:54 UTC] PHP Warning:  require_once(/workspaces/UX221Assignment1/.wordpress/wp-admin/includes/user.php): Failed to open stream: No such file or directory in /workspaces/UX221Assignment1/.wordpress/wp-admin/includes/admin.php on line 85
+[30-Jan-2025 22:51:54 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/workspaces/UX221Assignment1/.wordpress/wp-admin/includes/user.php' (include_path='.:') in /workspaces/UX221Assignment1/.wordpress/wp-admin/includes/admin.php:85
+Stack trace:
+#0 /workspaces/UX221Assignment1/.wordpress/wp-admin/admin-ajax.php(36): require_once()
+#1 {main}
+  thrown in /workspaces/UX221Assignment1/.wordpress/wp-admin/includes/admin.php on line 85
